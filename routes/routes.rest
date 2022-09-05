@@ -26,5 +26,5 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/blogs/631592febc445994bbd5f7d6 
+DELETE http://localhost:3000/blogs/63159f51e3a731e063d01a02
 
