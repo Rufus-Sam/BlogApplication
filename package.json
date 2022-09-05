@@ -1,0 +1,24 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "Website to post Blogs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rufus-Sam/BlogApplication.git"
+  },
+  "author": "Rufus Sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rufus-Sam/BlogApplication/issues"
+  },
+  "homepage": "https://github.com/Rufus-Sam/BlogApplication#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
