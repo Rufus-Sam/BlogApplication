@@ -1,0 +1,30 @@
+GET http://localhost:3000/blogs
+
+###
+
+POST http://localhost:3000/blogs
+Content-Type: application/json
+
+{
+    "title":"hellofsds",
+    "image":"injpgformat",
+    "description":"something"
+}
+
+###
+
+GET http://localhost:3000/blogs/631594884e2536876e046d60
+
+###
+
+PUT http://localhost:3000/blogs/631592febc445994bbd5f7d6
+Content-Type: application/json
+
+{
+    "title" : "check 2"
+}
+
+###
+
+DELETE http://localhost:3000/blogs/631592febc445994bbd5f7d6 
+
