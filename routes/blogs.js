@@ -55,14 +55,13 @@ router.put('/:id',getBlog,(req,res)=>{
     res.send(res.blog)
 })
 // delete one
-router.delete(':/id',getBlog , (req,res)=>{
-    console.log(res.blog);
-    // try{
-    //     await res.blog.remove();
-    //     res.json({message:"Deleted"})
-    // }catch(e){
-    //     res.status(500).json({message : e.message})
-    // }
+router.delete('/:id',getBlog , async(req,res)=>{
+    try{
+        await res.blog.remove();
+        res.json({message:"Deleted"})
+    }catch(e){
+        res.status(500).json({message : e.message})
+    }
 })
 
 

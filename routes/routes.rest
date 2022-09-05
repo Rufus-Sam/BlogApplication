@@ -6,7 +6,7 @@ POST http://localhost:3000/blogs
 Content-Type: application/json
 
 {
-    "title":"hellofsds",
+    "title":"hes",
     "image":"injpgformat",
     "description":"something"
 }
