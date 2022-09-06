@@ -6,7 +6,7 @@ POST http://localhost:3000/blogs
 Content-Type: application/json
 
 {
-    "title":"hes",
+    "title":"Sam",
     "image":"injpgformat",
     "description":"something"
 }
@@ -17,7 +17,7 @@ GET http://localhost:3000/blogs/631594884e2536876e046d60
 
 ###
 
-PUT http://localhost:3000/blogs/631592febc445994bbd5f7d6
+PUT http://localhost:3000/blogs/631594884e2536876e046d60
 Content-Type: application/json
 
 {
@@ -26,5 +26,5 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/blogs/63159f51e3a731e063d01a02
+DELETE http://localhost:3000/blogs/631594884e2536876e046d60
 

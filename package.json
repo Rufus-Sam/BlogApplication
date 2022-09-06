@@ -18,9 +18,13 @@
   },
   "homepage": "https://github.com/Rufus-Sam/BlogApplication#readme",
   "dependencies": {
+    "bootstrap": "^5.2.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "mongoose": "^6.5.4",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
